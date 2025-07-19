@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {motion} from 'framer-motion';
 const HistoryItem = ({ item }) => {
   const { code, language, aiFix, aiExplanation, createdAt, logText } = item;
 
