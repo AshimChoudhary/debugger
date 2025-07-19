@@ -1,5 +1,5 @@
 {
-  "name": "debug-assistant",
+  "name": "debugger",
   "version": "1.0.0",
   "description": "AI-powered debugging assistant with Gemini integration",
   "scripts": {
