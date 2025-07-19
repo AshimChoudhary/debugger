@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "description": "AI-powered debugging assistant with Gemini integration",
   "scripts": {
-    "install-all": "cd backend && npm install && cd ../frontend && npm install",
-    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
-    "backend": "cd backend && npm run dev",
-    "frontend": "cd frontend && npm run dev",
-    "build": "cd frontend && npm run build"
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": ""
   },
   "dependencies": {
     "openai": "^5.10.1",

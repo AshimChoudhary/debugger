@@ -7,7 +7,6 @@ import session from 'express-session';
 import debugRoutes from './routes/debug.route.js';
 import authRoutes from './routes/auth.route.js';
 import { connectDB } from './lib/db.js';
-import passport from './lib/passport.js';
 
 const app = express();
 dotenv.config();
@@ -35,9 +34,6 @@ app.use(
     },
   })
 );
-
-app.use(passport.initialize());
-app.use(passport.session());
 
 app.use('/api/auth', authRoutes);
 app.use('/api/debug', debugRoutes);
