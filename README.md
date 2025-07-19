@@ -43,7 +43,7 @@ A full-stack debugging assistant web app that helps developers debug their code 
 - Node.js (v16 or higher)
 - MongoDB (local or cloud)
 - Google Gemini API key
-- Cloudinary account (optional, for image uploads)
+- Cloudinary account (for image uploads)
 
 ### 1. Clone the Repository
 
@@ -70,10 +70,7 @@ GEMINI_API_KEY=your-gemini-api-key-here
 CLOUDINARY_CLOUD_NAME=your-cloudinary-cloud-name
 CLOUDINARY_API_KEY=your-cloudinary-api-key
 CLOUDINARY_API_SECRET=your-cloudinary-api-secret
-GITHUB_CLIENT_ID=your-github-client-id
-GITHUB_CLIENT_SECRET=your-github-client-secret
-GOOGLE_CLIENT_ID=your-google-client-id
-GOOGLE_CLIENT_SECRET=your-google-client-id
+
 ```
 
 ### 3. Frontend Setup
@@ -141,13 +138,12 @@ The application will be available at:
 
 ### Getting API Keys
 
-#### Google Gemini API
+#### MONGO db
 
-1. Go to [Google AI Studio](https://makersuite.google.com/app/apikey)
-2. Create a new API key
-3. Add it to your `.env` file
+1. Go to MONGODB
+2. And add the server details
 
-#### Cloudinary (Optional)
+#### Cloudinary
 
 1. Sign up at [Cloudinary](https://cloudinary.com/)
 2. Get your cloud name, API key, and API secret
@@ -195,13 +191,3 @@ If you encounter any issues or have questions, please:
 1. Check the existing issues
 2. Create a new issue with detailed information
 3. Include error messages and steps to reproduce
-
-## 🔮 Future Features
-
-- [ ] OAuth integration (Google, GitHub)
-- [ ] Debug history and favorites
-- [ ] Multiple AI model support
-- [ ] Real-time collaboration
-- [ ] Code snippet sharing
-- [ ] Advanced code analysis
-- [ ] Performance optimization suggestions
