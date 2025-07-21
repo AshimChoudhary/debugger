@@ -124,6 +124,10 @@ The application will be available at:
 5. **Analyze**: Click "Analyze Now!" to get AI-powered insights
 6. **Review Results**: View detailed analysis and suggestions
 
+## 📻 Video
+
+**https://www.youtube.com/watch?v=NNzj1ryFdRc&t**
+
 ## 🔧 Configuration
 
 ### Environment Variables
