@@ -156,7 +156,7 @@ The application will be available at:
 ## 🏗 Project Structure
 
 ```
-chat-app/
+debugger/
 ├── backend/
 │   ├── src/
 │   │   ├── controllers/     # Route controllers
